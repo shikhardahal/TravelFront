@@ -30,14 +30,13 @@
                 Day Tour
               </a>
               <div class="dropdown-menu" aria-labelledby="aboutDropdown">
-              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">rafting</a>
+              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Rafting</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">helicopter tour </a>
+              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Helicopter tour </a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Annapurna base camp </a>
+              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Annapurna Base Camp </a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">helicopter tour</a>
-              
+              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Helicopter Tour</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -45,14 +44,13 @@
                 Luxury Travel
               </a>
               <div class="dropdown-menu" aria-labelledby="servicesDropdown">
-              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">rafting</a>
+              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Rafting</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">helicopter tour </a>
+              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Helicopter tour </a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Annapurna base camp </a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">helicopter tour</a>
-           
+              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Helicopter Tour</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -62,16 +60,13 @@
               <div class="dropdown-menu" aria-labelledby="contactDropdown">
               <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Family Trip</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Corporate Travel </a>
+              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Corporate Travel</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Solo Travel </a>
+              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Solo Travel</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Group Travel</a>
-        
               </div>
             </li>
-
-
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle px-4 text-dark" href="#" id="contactDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 Travel Guide
@@ -108,24 +103,17 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Why us? </a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Partner with us </a>
-            
-
-           
+              <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">Partner With Us </a>
               </div>
             </li>
-
-
             <li class="nav-item dropdown">
               <a class="nav-link px-4 text-dark" href="#" id="contactDropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 Contact
               </a>
-          
             </li>
           </ul>
         </div>
       </nav>
-    )
-    
+    )  
   }
   export default Navbar;

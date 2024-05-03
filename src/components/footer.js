@@ -2,7 +2,6 @@ import './footer.css';
 import footer from '../assets/img/logo/logo2_footer.png';
 function Footer(){
     return(
-        
         <div id = 'footer' className="footer-area footer-padding footer-bg" data-background="assets/img/service/footer_bg.jpg">
             <div className="container">
                 <div className="row d-flex justify-content-between">
@@ -26,10 +25,10 @@ function Footer(){
                             <div className="footer-tittle">
                                 <h4>Quick Links</h4>
                                 <ul>
-                                    <li><a href="#">About</a></li>
+                                    <li><a href="#"> About </a></li>
                                     <li><a href="#"> Offers & Discounts</a></li>
                                     <li><a href="#"> Get Coupon</a></li>
-                                    <li><a href="#">  Contact Us</a></li>
+                                    <li><a href="#"> Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>

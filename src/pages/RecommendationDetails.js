@@ -189,7 +189,18 @@ const RecommendationDetails = () => {
   <div style={{ fontSize: "15px", padding: "5px 8px", margin: "0 5px" }} onClick={() => scrollToSection("faqs")}>FAQs</div>
 </div>
 
-
+<div id="include">
+  {recommendation.includeData ? (
+    recommendation.includeData.map((item, index) => (
+      <div key={index}>
+        <h3>{item.title}</h3>
+        <p>{item.description}</p>
+      </div>
+    ))
+  ) : (
+    <div>No include data available</div>
+  )}
+</div>
 <div id="overview">
   <Overview overview={recommendation.Overview} />
 </div>

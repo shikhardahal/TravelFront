@@ -1,4 +1,3 @@
-// Recommendation.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -33,7 +32,7 @@ function Recommendation() {
         <div className="row">
           {recommendations.map((item) => (
             <div key={item.slug} className="col-lg-4 col-md-6 mb-4">
-              <Link to={`/${item.slug}`} className="recommendation-link"> {/* Update the link to point to the details page */}
+              <Link to={`/${item.slug}`} className="recommendation-link">
                 <div className="card">
                   <div className="zoom-image">
                     <img src={item.image} className="card-img-top img-fluid recommendation-image" alt={item.title} />

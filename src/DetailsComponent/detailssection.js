@@ -60,5 +60,4 @@ const RecommendationAdditionalDetails = ({
     </div>
   );
 };
-
 export default RecommendationAdditionalDetails;

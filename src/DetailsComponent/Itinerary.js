@@ -1,15 +1,11 @@
 // Itinerary.js
-
 import React, { useState } from 'react';
 import './itinerary.css'; // Import the CSS file
-
 const Itinerary = ({ itineraryData }) => {
   const [selectedDay, setSelectedDay] = useState(null);
-
   const handleClick = (day) => {
     setSelectedDay(selectedDay === day ? null : day);
   };
-
   return (
     <div className="itinerary-container">
       <div className="itinerary-box">
@@ -29,5 +25,4 @@ const Itinerary = ({ itineraryData }) => {
     </div>
   );
 };
-
 export default Itinerary;

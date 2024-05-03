@@ -5,7 +5,6 @@ function Destinations(){
     return(
         <div style={{backgroundColor:'#e8ebf3'}} className="favourite-place place-padding">
         <div className="container">
-         
             <div className="row">
                 <div className="col-lg-12">
                     <div className="section-tittle text-center">
@@ -18,8 +17,6 @@ function Destinations(){
                 <div  className="col-xl-4 col-lg-4 col-md-6">
                     <div className="single-place mb-70">
                         <div className="place-img">
-                            
-                            
                             <img style={{ height: '450px', borderRadius:'25px 25px 25px 25px' }} src={service1} alt="service"/>
                         </div>
                       
@@ -30,26 +27,21 @@ function Destinations(){
                         <div className="place-img position-relative" >
                         <img style={{ height: '450px', borderRadius:'25px 25px 25px 25px' }} src={service2} alt="service"/>
                         <div style={{position:'absolute', top:'78%',}}>
-    <h3 style={{color:'white', fontSize:'3em',  fontWeight:'500'}}> Nepal</h3>
-</div>
-<div style={{position:'absolute', top:'90%',}}>
-    <h4 style={{color:'white', fontWeight:'500'}}> Explore the Nepal</h4>
-</div>
+               <h3 style={{color:'white', fontSize:'3em',  fontWeight:'500'}}> Nepal</h3>
+                   </div>
+        <div style={{position:'absolute', top:'90%',}}>
+      <h4 style={{color:'white', fontWeight:'500'}}> Explore the Nepal</h4>
+                   </div>
                         </div>
-                      
                     </div>
                 </div>
                 <div className="col-xl-4 col-lg-4 col-md-6">
                     <div className="single-place mb-30">
                         <div className="place-img position-relative">
                         <img style={{ height: '450px', borderRadius:'25px 25px 25px 25px' }} src={service3} alt="service"/>
-
                         </div>
-                      
                     </div>
                 </div>
-
-                
                 {/* <div className="col-xl-4 col-lg-4 col-md-6">
                     <div className="single-place mb-30">
                         <div className="place-img">
@@ -77,7 +69,6 @@ function Destinations(){
             </div>
         </div>
     </div>
-
     )
 }
 export default Destinations;
