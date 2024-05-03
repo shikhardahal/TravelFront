@@ -188,7 +188,6 @@ const RecommendationDetails = () => {
   <div style={{ fontSize: "15px", padding: "5px 8px", margin: "0 5px" }} onClick={() => scrollToSection("reviews")}>Reviews</div>
   <div style={{ fontSize: "15px", padding: "5px 8px", margin: "0 5px" }} onClick={() => scrollToSection("faqs")}>FAQs</div>
 </div>
-
 <div id="include">
   {recommendation.includeData ? (
     recommendation.includeData.map((item, index) => (
